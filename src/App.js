@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import Navbar from "../components/Navbar";
+import Navbar from "./components/Navbar";
 
 const AppContainer = styled.div`
   display: flex;
@@ -32,7 +32,7 @@ function App() {
   return (
     <AppContainer>
       <VideoBackground autoPlay loop muted>
-        <source src="1.mp4" type="video/mp4" />
+        <source src="2b.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </VideoBackground>
       <Navbar />
